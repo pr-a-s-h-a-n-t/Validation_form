@@ -22,6 +22,8 @@ function validate() {
 
     let error = false
 
+    // First name:-
+
 	if(firstName.length >= 2) {
 		document.getElementById('first-name-valid').style.display = 'block'
 		document.getElementById('first-name-invalid').style.display = 'none'
@@ -30,6 +32,8 @@ function validate() {
 		document.getElementById('first-name-invalid').style.display = 'block'
 		document.getElementById('first-name-valid').style.display = 'none'
 	}
+    
+    // last name:-
 
 	if(lastName.length >= 2) {
 		document.getElementById('last-name-valid').style.display = 'block'
@@ -40,7 +44,7 @@ function validate() {
 		document.getElementById('last-name-valid').style.display = 'none'
 	}
 
-	 
+	// email:- 
 	
 	if(	email.includes('@') &&
 		email.includes('.') &&
@@ -56,7 +60,7 @@ function validate() {
 		document.getElementById('email-valid').style.display = 'none'
 	}
 
-	/* City: At least 3 characterts.*/
+	// City:-
 
 	if(	city.length >= 3) {
 		document.getElementById('city-valid').style.display = 'block'
@@ -66,6 +70,8 @@ function validate() {
 		document.getElementById('city-invalid').style.display = 'block'
 		document.getElementById('city-valid').style.display = 'none'
 	}
+
+    // state:-
 
 	if(state != 'None') {
 		document.getElementById('state-valid').style.display = 'block'
@@ -77,7 +83,7 @@ function validate() {
 	}
 
 
-	 
+	//  Zip:-
 
 	let numberZip = parseInt(zipCode)
 
@@ -93,11 +99,15 @@ function validate() {
 		document.getElementById('zip-code-valid').style.display = 'none'
 	}
 
+//    checkbox:-
+
 	if(tnC) {
 		document.getElementById("tNC-invalid").style.display = "none"
+		 
 	} else {
 		error = true
 		document.getElementById("tNC-invalid").style.display = "block"
+		 
 	}
 
 	 
