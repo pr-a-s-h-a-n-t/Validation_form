@@ -113,7 +113,7 @@ function validate() {
 	 
 
 	if(error ===  false) { // also can be checked this way: !error
-		alert('Your details have been saved successfully!')
+		alert('Data have been saved successfully 👍 !')
 		resetFields()
 	}
 
