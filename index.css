@@ -96,18 +96,7 @@ ul {
     border: none;
     
 }
-
-/* Section-1--> Main content styling code */
-
-/* .section-1-details {
-    display: flex;
-    flex-direction: column;
-    text-align:start;
-    width: 40%;
-    margin-top : 30vh;
-    margin-left: 20rem; 
-
-} */
+ 
 .main-wrapper {
     display: flex;
     flex-direction: column;
@@ -118,39 +107,40 @@ ul {
      
 }
 
+input[type="text"]{
+    background-color: gray;
+    
+}
+
+select option{
+    background-color: gray;
+}
+
+.form-label{
+    color: rgb(2 193 251);
+}
+
 .main-wrapper > .page-title{
     color: rgb(2 193 251);
 }
 
- 
-
-/* .section-1-details > h1 {
-    margin: 1rem 0 2rem;
-    color: rgb(2 193 251);
+.col-12 > button {
+    background-color: rgb(2 193 251);
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    
+    
 }
 
-.section-1-details > p {
-    font-size: 2rem;
-    margin: 1rem 0 0.5rem;
-}
-
-.section-1-details > button {
-    font-size: 1.6rem;
-    background-color:  rgb(2 193 251);
-    align-items: flex-start;
-    padding: 0.8rem;
-    margin: 0.2rem 0 1rem;
-    width: 20rem;
-}
-
-.section-1-details > button:hover{
+.col-12 > button:hover {
     cursor: pointer;
     color: gold;
     transition: 0.3s;
     background-color: Transparent;
     border: none;
+    
+}
 
-} */
 
 
 
@@ -159,16 +149,14 @@ ul {
 /* Section-2--> Footer Bar Styling Code */
 
 .section-2  {
-    /* background-color: black; */
-     
-     
+    background-color: black;
+    height: 10vh;
 }
 
 .section-2 >footer {
     height: 5.5vh;
     padding: 1rem;
     vertical-align: middle;
-   
 }
 
 .section-2 >footer > ul {
@@ -180,18 +168,5 @@ ul {
 
 }
 
-/* .main-wrapper {
-    margin: auto;
-    
-  }
-  
-  .page-title {
-    text-align: center;
-  }
-  
-  .registration-form {
-    width: 800px;
-    margin: auto;
-  } */
  
 
